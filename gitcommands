@@ -1,0 +1,94 @@
+git config --global user.name "incognito"
+git config --global user.email "incognitoopensource@gmail.com"
+notepad++ ~/.bash_profile
+#creating a a loacal empty repository
+git init demo (create the demo repository)
+#creating an exsisting project in git
+#go to the the particular project root folder
+git init .
+#git states local
+#working directory staging area git repository
+git remote directory
+git status
+notepad++ README.md
+git status
+git add README.md
+git commit -m "first commit in demo repo"
+
+
+#for adding multiple file
+git add .
+to view the commiting history
+git log
+git show
+# to show the tracked file in a working directory
+git ls-files
+
+git commit -am "new commit"
+
+#to revert the added changes in the staging before commiting
+git reset HEAD README.md
+git checkout -- README.md
+
+ git log --oneline --graph --decorate --all
+
+ git config --global alias.hist "log --oneline --graph --decorate --all"
+
+  git config --global --list
+  git hist -- filename
+
+  git mv old new
+  git commit -m "test"
+  git rm filename
+  git commit -m "remove"
+#outside git delete update
+  git add -u
+#outside git all updates
+  git add -A
+notepad++ .gitignore
+add the pattern in the .gitignore file and commit the changes in the local repository
+
+to compare the changes in the command line
+git hist
+git diff commiting head 
+to compare the changes in the p4merge in the gui
+git difftool commit head 
+
+git help diff
+
+branching and merging
+
+branch=timeline of commit
+ merge:
+ 1. fastforward merge (no new commit in master branch)
+ 2.automatic merges
+
+ git pointers
+ head (points to last commit of current branch)
+ git checkout -b update
+ 
+ git checkout branchname
+ git branch -d branchname
+ git merge branchname
+ git branch
+ git tags
+ git tag mytag
+ git tag --list
+ git tag -d tagname
+
+ git tag -a v1.0 -m "my first tag"
+ git show tagname
+
+if you want to wip your working directory and do some meregency changes
+ git stash
+ revert the changes that was made 
+ git stash pop
+ 
+
+
+
+
+
+
+
+
