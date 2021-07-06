@@ -83,6 +83,19 @@ if you want to wip your working directory and do some meregency changes
  git stash
  revert the changes that was made 
  git stash pop
+
+ git reset commitid --soft
+ git reset commitid --mixed
+ git reset commitid --hard
+ git reflog
+
+
+
+git remote -v
+git push origin master
+git remote add newurl
+git remote set-url origin new url
+
  
 
 
