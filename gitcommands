@@ -105,6 +105,14 @@ git push origin master
 git remote add newurl
 git remote set-url origin new url
 
+before pushing new changes always pull from the remote repo
+git pull
+
+to prune
+git fetch -p 
+to checkout the remote branch
+git fetch 
+
  
 
 
